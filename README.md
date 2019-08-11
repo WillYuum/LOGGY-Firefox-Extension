@@ -1,2 +1,3 @@
-# Day_Alive-FireFox-Extension
-Adding an old program I made which checks how many days you've lived to Firefox as an extension
+# LOGGY-Firefox-Extension
+
+Creating my first extension on firefox that edits the conten of the website with a click of a button and one simple text 
