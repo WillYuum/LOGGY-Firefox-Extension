@@ -1,0 +1,23 @@
+{
+  "description": "I'm using firefox documentation to create my first extension",
+  "manifest_version": 2,
+  "name": "My First popUp Plugin",
+  "version": "1.0",
+  "icons": {
+    "48": "helloWorld.webp"
+  },
+  "permissions": [
+    "*://developer.mozilla.org/*",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "helloWorld.webp"
+    },
+    "default_title": "Testing popUp?",
+    "default_popup": "popup/index.html"
+  },
+  "web_accessible_resources": [
+    "helloWorld.webp"
+  ]
+}

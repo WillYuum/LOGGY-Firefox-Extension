@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="container main">
+        <div class="title-container">
+            <p class="title">let's Edit this Website</p>
+        </div>
+        <div>
+            <label id="text-dropdown" for="dropdown">Choose an HTML Tag</label>
+            <select id="dropdown" required>
+                <option>h1</option>
+                <option>h2</option>
+                <option>p</option>
+                <option>img</option>
+            </select></br>
+        </div>
+        <div>
+            <form class="main">
+                <input id="inputText" type="text" />
+                <button class="Log-button">LOG</button>
+            </form>
+        </div>
+
+        <div id="error-content" class="hidden">
+            <p>Can't beastify this web page.</p>
+            <p>Try a different page.</p>
+        </div>
+        <script src="index.js"></script>
+</body>
+
+</html>
