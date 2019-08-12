@@ -1,7 +1,7 @@
 function listenForClicks() {
   const button = document.getElementById("Log-button");
   document.addEventListener("click", e => {
-    // console.log("The button has reached the website");
+    e.preventDefault();
 
     function Log(tabs) {
       let query = document.getElementById("dropdown").value;

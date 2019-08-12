@@ -5,9 +5,11 @@
   window.hasRun = true;
 
   function EditPage(value, query) {
-    let tag = document.querySelector(`${query}`);
-    console.log();
-    tag.innerHTML = value;
+    let tag = document.querySelectorAll(`${query}`);
+    tag.forEach(element => {
+      element.innerHTML = value
+    });
+   
   }
 
   browser.runtime.onMessage.addListener(message => {

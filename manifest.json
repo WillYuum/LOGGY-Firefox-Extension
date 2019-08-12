@@ -1,7 +1,7 @@
 {
-  "description": "I'm using firefox documentation to create my first extension",
+  "description": "LOGGY an extension that edits the website depedning on the user's input.",
   "manifest_version": 2,
-  "name": "My First popUp Plugin",
+  "name": "LOGGY",
   "version": "1.0",
   "icons": {
     "48": "helloWorld.webp"
